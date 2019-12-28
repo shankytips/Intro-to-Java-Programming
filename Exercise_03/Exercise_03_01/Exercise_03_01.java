@@ -31,8 +31,8 @@ public class Exercise_03_01 {
 		System.out.print("The equation has ");
 		if (discriminant > 0)
 		{
-			double root1 = (-b + Math.pow(discriminant, 0.5)) / (2 * a);  
-			double root2 = (-b - Math.pow(discriminant, 0.5)) / (2 * a);  
+			double root1 = ((b*(-1)) + Math.pow(discriminant, 0.5)) / (2 * a);  
+			double root2 = ((b*(-1)) - Math.pow(discriminant, 0.5)) / (2 * a);  
 			System.out.println("two roots " + root1 + " and " + root2);
 		}
 		else if (discriminant == 0)
